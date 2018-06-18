@@ -6,7 +6,9 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="stylesheet" href="<?php echo base_url('css/semantic.min.css') ?>">
+	<link rel='stylesheet' href='<?php echo base_url() ?>fullcalendar/fullcalendar.css' />
 	<link rel="stylesheet" href="<?php echo base_url('css/iberdrola.css') ?>">
+
 </head>
 <body>
 	
@@ -26,10 +28,17 @@
 	  </div>
 	</nav>
 
+	<div class="ui container" >
+		<div id='calendar'></div>
+	</div>
 
 
 
 	<script src="<?php echo base_url('js/jquery.js') ?>"></script>
+	<script src='<?php echo base_url() ?>/fullcalendar/lib/jquery.min.js'></script>
+	<script src='<?php echo base_url() ?>/fullcalendar/moment.js'></script>
+	<script src='<?php echo base_url() ?>/fullcalendar/fullcalendar.min.js'></script>
+
 	<script src="<?php echo base_url('js/semantic.min.js') ?>"></script>
 	<script src="<?php echo base_url('js/iberdrola.js') ?>"></script>
 </body>
